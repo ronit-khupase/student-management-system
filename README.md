@@ -13,14 +13,14 @@ A backend REST API project built using **Java + Spring Boot** that allows managi
 * ✅ Delete Student
 * ✅ DTO Layer (Clean Architecture)
 * ✅ Exception Handling
-* ✅ MySQL Database Integration
+* ✅ PostgreSQL Database Integration
 
 ---
 
 ## 🛠 Tech Stack
 
 * **Backend:** Java, Spring Boot
-* **Database:** MySQL
+* **Database:** PostgreSQL
 * **ORM:** Spring Data JPA (Hibernate)
 * **Build Tool:** Maven
 * **Tools:** Postman, Git, IntelliJ IDEA
@@ -80,9 +80,9 @@ cd student-management-system
 Update `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/student_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+spring.datasource.username=username
+spring.datasource.password=password
 ```
 
 ### 3. Run Application
